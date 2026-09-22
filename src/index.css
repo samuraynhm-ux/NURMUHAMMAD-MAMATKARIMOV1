@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0b0d13;
+    color: #f3f4f6;
+    overflow-x: hidden;
+    letter-spacing: -0.011em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syne', 'Outfit', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.035em;
+  }
+}
+
+.font-2026-display {
+  font-family: 'Syne', 'Outfit', sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.font-2026-tech {
+  font-family: 'Space Grotesk', monospace, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* 2026 Futuristic Neon & Glass Effects */
+.glass-2026 {
+  background: rgba(18, 22, 32, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glow-amber-2026 {
+  box-shadow: 0 0 35px -5px rgba(245, 158, 11, 0.25);
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #13171d;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a303c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
+}
